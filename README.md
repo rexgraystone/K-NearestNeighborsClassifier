@@ -18,4 +18,4 @@ value for the group is (84+99)×100+1000 = 19300. Use the first n points in the 
 times (each time picking the 20% test data randomly) where k is determined as above. Report the
 average of scores: a confusion matrix with averaged entries.
 
-4. Implementation: Code a custom kNN algorithm, and generate an averaged confusion matrix.
+4. Implementation: Write the code for a custom kNN algorithm, and generate an averaged confusion matrix.
