@@ -1,4 +1,4 @@
-# K-Nearest Neighbors Classifier with custom and library implementations
+# K-Nearest Neighbors Classifier with custom algorithm and library implementations
 **Problem statement:** Build a _k_ nearest neighbor classifier in Python to classify the MNIST digit data. This
 is a multi-class classification problem with labels from 0 to 9.
 
