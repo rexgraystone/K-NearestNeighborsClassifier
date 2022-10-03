@@ -2,17 +2,17 @@
 **Problem statement:** Build a _k_ nearest neighbor classifier in Python to classify the MNIST digit data. This
 is a multi-class classification problem with labels from 0 to 9.
 
-### Conditions:
+### Values:
 
-  1. **The value of _k_:** 44
+  1. **Number of neighbors _'k'_:** 44
 
   2. **Number of data points:** 7100
 
-  3. **Testing process** (cross-validation): Randomly picking 20% of the data for testing, and do the testing _k_ many
-times (each time picking the 20% test data randomly) where _k_ is determined as above. Finally, report the
-average of scores: a confusion matrix with averaged entries.
+  3. **Testing process** (cross-validation): 1420 (Randomly picking 20% of the data for testing, and doing the testing _k_ many
+times (each time picking the 20% test data randomly))
 
-  4. **Implementation**: Write the code for a custom kNN algorithm, and generate an averaged confusion matrix. Repeat the process using sklearn's KNeighborsClassifier library classifier.
+### Implementation: 
+Write the code for a custom kNN algorithm, and generate an averaged confusion matrix. Repeat the process using sklearn's KNeighborsClassifier library classifier.
 
 ### Anomalies:
   1. Sometimes in the Custom kNN classifier, due to losses in the decimal places, when calculating the total number of elements in the final confusion matrix, the answer may not always be the exact number of testing datapoints used, rather it could produce a value that is extremely close to the intended answer.
