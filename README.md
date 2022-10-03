@@ -22,5 +22,5 @@ average of scores: a confusion matrix with averaged entries.
 
   4. Implementation: Write the code for a custom kNN algorithm, and generate an averaged confusion matrix.
 
-## Anomalies
+## Anomalies:
   1. Sometimes in the Custom classifier, due to losses in the decimal places, when calculating the total number of elements in the final confusion matrix, the answer may not always be the exact number of testing datapoints used, rather it could be extremely close to the answer.
