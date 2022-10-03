@@ -1,8 +1,8 @@
-## K-NearestNeighborsClassifier
+# K-NearestNeighborsClassifier
 Problem statement: Build a k nearest neighbor classifier in Python to classify the MNIST digit data. This
 is a multi-class classification problem with labels from 0 to 9.
 
-# Conditions:
+## Conditions:
 
   1. The value of k: Different groups may have different values of k. The k value for a group is the
 maximum of the last two digits of USNs (University Seat Number) of students in the group. For example, if a group has students
@@ -22,5 +22,5 @@ average of scores: a confusion matrix with averaged entries.
 
   4. Implementation: Write the code for a custom kNN algorithm, and generate an averaged confusion matrix.
 
-# Anomalies
-1. Sometimes in the Custom classifier, due to losses in the decimal places, when calculating the total number of elements in the final confusion matrix, the answer may not always be the exact number of testing datapoints used, rather it could be extremely close to the answer.
+## Anomalies
+  1. Sometimes in the Custom classifier, due to losses in the decimal places, when calculating the total number of elements in the final confusion matrix, the answer may not always be the exact number of testing datapoints used, rather it could be extremely close to the answer.
