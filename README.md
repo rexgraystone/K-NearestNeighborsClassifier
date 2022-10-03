@@ -2,6 +2,8 @@
 Problem statement: Build a k nearest neighbor classifier in Python to classify the MNIST digit data. This
 is a multi-class classification problem with labels from 0 to 9.
 
+Conditions:
+
 1. The value of k: Different groups may have different values of k. The k value for a group is the
 maximum of the last two digits of USNs (University Seat Number) of students in the group. For example, if a group has students
 with USNs: ENGXXAM0099 and ENGXXAM0084, then the k value for the group is max{99, 84} = 99.
