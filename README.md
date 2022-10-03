@@ -1,6 +1,7 @@
 ## K-Nearest Neighbors Classifier with custom algorithm and library implementations
-**Problem statement:** Build a _k_ nearest neighbor classifier in Python to classify the MNIST digit data. This
-is a multi-class classification problem with labels from 0 to 9.
+
+### Problem statement: 
+Build a _k_ nearest neighbor classifier in Python to classify the MNIST digit data. This is a multi-class classification problem with labels from 0 to 9.
 
 ### Values:
 
@@ -8,8 +9,7 @@ is a multi-class classification problem with labels from 0 to 9.
 
   2. **Number of data points:** 7100
 
-  3. **Testing process** (cross-validation): 1420 (Randomly picking 20% of the data for testing, and doing the testing _k_ many
-times; each time picking the 20% test data randomly))
+  3. **Testing process** (cross-validation): 1420 (Randomly picking 20% of the data for testing, and doing the testing _k_ many times; each time picking the 20% test data randomly))
 
 ### Implementation: 
 Write the code for a custom kNN algorithm, and generate an averaged confusion matrix. Repeat the process using sklearn's KNeighborsClassifier library classifier.
