@@ -6,7 +6,7 @@ is a multi-class classification problem with labels from 0 to 9.
 maximum of the last two digits of USNs (University Seat Number) of students in the group. For example, if a group has students
 with USNs: ENGXXAM0099 and ENGXXAM0084, then the k value for the group is max{99, 84} = 99.
 
-2. # data points: The MNIST database has 60, 000 data points but we will not be using the whole data.
+2. Number of data points: The MNIST database has 60, 000 data points but we will not be using the whole data.
 Different groups may have different number of data points to work with: add the last two digits of USNs
 of students in the group and multiply it by hundred and add 1000. That will be the size of your data.
 For example, if a group has students with USNs: ENGXXAM0099 and ENGXXAM0084, then the n
