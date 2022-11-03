@@ -9,7 +9,7 @@ Build a _k_ nearest neighbor classifier in Python to classify the MNIST digit da
 
   2. **Number of data points:** 7100
 
-  3. **Testing process** (cross-validation): 1420 (Randomly picking 20% of the data for testing, and doing the testing _k_ many times; each time picking the 20% test data randomly))
+  3. **Testing process** (cross-validation): 1420 (Randomly picking 20% of the data for testing, and doing the testing _k_ many times; each time picking the 20% test data randomly)
 
 ### Implementation: 
 Write the code for a custom kNN algorithm, and generate an averaged confusion matrix. Repeat the process using sklearn's KNeighborsClassifier library classifier.
