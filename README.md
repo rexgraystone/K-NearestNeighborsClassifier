@@ -28,3 +28,4 @@ Write the code for a custom kNN algorithm, and generate an averaged confusion ma
 | :---: | :---: |
 | [K-Nearest Neighbors Classifier - Custom](https://github.com/rexgraystone/K-NearestNeighborsClassifier/blob/main/K-Nearest%20Neighbors%20Classifier%20-%20Custom.ipynb) | A kNN classifier using a hardcoded algorithm |
 | [K-Nearest Neighbors Classifier - Library](https://github.com/rexgraystone/K-NearestNeighborsClassifier/blob/main/K-Nearest%20Neighbors%20Classifier%20-%20Library.ipynb) | A kNN classifier using scikit-learn's library classifier |
+| [Documentation](https://github.com/rexgraystone/K-NearestNeighborsClassifier/blob/main/Documentation.pdf) | Documentation of the project |
